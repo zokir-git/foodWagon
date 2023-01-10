@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <title>FoodWagon</title>
+  </head>
+  <body>
+    <header class="container header">
+      <a href="#"
+        ><img
+          class="web__logo"
+          src="./images/web_logo.svg"
+          alt="web logo"
+          width="197"
+          height="37"
+      /></a>
+
+      <div class="header__location">
+        <span class="location__bolt"> Deliver to: </span>
+        <img
+          src="./images/location.svg"
+          alt="location icon"
+          width="14"
+          height="25"
+        />
+        <p class="header__location-info">
+          Current Location
+          <span class="location__bolt"> Mohammadpur Bus Stand, Dhaka </span>
+        </p>
+      </div>
+
+      <div class="header__user">
+        <div class="header__search">
+          <img
+            src="./images/search.svg"
+            alt="search icon"
+            width="18"
+            height="18"
+          />
+          <input type="text" placeholder="Search Food" />
+        </div>
+        <div class="header__login">
+          <img src="./images/user.svg" alt="user icon" width="16" height="18" />
+          <b>Login</b>
+        </div>
+      </div>
+    </header>
+
+    <!--    HEADER END  -->
+
+    <!-- MAIN HERO START  -->
+
+    <div class="main__hero">
+      <div class="container">
+        <h1 class="main__hero-titel">Are you starving?</h1>
+        <p class="main__hero-para">
+          Within a few clicks, find meals that are accessible near you
+        </p>
+
+        <div class="enter__address-wrapper">
+          <div class="enter__address-box">
+            <span class="bike"
+              ><img
+                src="./images/bike.svg"
+                alt="Bike "
+                width="27"
+                height="18"
+              />
+              <span>Delivery</span>
+            </span>
+
+            <span class="pickup"
+              ><img
+                src="./images/basket.svg"
+                alt="Basket "
+                width="23"
+                height="18"
+              />
+              <span>Pickup</span>
+            </span>
+          </div>
+          <div class="break__line"></div>
+          <div class="enter__address-box address__box">
+            <span>
+              <input
+                type="text"
+                placeholder="Enter Your Address"
+                name="address"
+              />
+            </span>
+
+            <button type="submit" class="btn">Find Food</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Hero END -->
+
+    <div class="food__option-wrapper container">
+      <div class="food__box box__1">
+        <span class="food__discount">
+          <span>15</span>
+          <div>
+            <p>%</p>
+            <p>off</p>
+          </div>
+        </span>
+      </div>
+      <div class="food__box box__2">
+        <span class="food__discount">
+          <span>10</span>
+          <div>
+            <p>%</p>
+            <p>off</p>
+          </div>
+        </span>
+      </div>
+      <div class="food__box box__3">
+        <span class="food__discount">
+          <span>25</span>
+          <div>
+            <p>%</p>
+            <p>off</p>
+          </div>
+        </span>
+      </div>
+      <div class="food__box box__4">
+        <span class="food__discount">
+          <span>20</span>
+          <div>
+            <p>%</p>
+            <p>off</p>
+          </div>
+        </span>
+      </div>
+
+      <div class="food__name-box">
+        <h3 class="food__name">Grey Vage</h3>
+        <span class="discount__deadline">6 days remaining</span>
+      </div>
+      <div class="food__name-box">
+        <h3 class="food__name">Grey Vage</h3>
+        <span class="discount__deadline">6 days remaining</span>
+      </div>
+      <div class="food__name-box">
+        <h3 class="food__name">Grey Vage</h3>
+        <span class="discount__deadline">7 days remaining</span>
+      </div>
+      <div class="food__name-box">
+        <h3 class="food__name">Grey Vage</h3>
+        <span class="discount__deadline">8 days remaining</span>
+      </div>
+    </div>
+
+    <!-- FOOD AOPTION SECTION END -->
+
+    <!-- Guiding Section -->
+
+    <div class="guiding__wrapper">
+      <h2>How does it work</h2>
+      <div class="guiding__items">
+        <div class="guiding__item-box">
+          <img
+            src="./images/food_option/location.svg"
+            alt="location"
+            width="190"
+            height="160"
+          />
+          <h4 class="guiding__item-titel">Select location</h4>
+          <p class="guiding__item-para">
+            Choose the location where your <br />
+            food will be delivered.
+          </p>
+        </div>
+        <div class="guiding__item-box">
+          <img
+            src="./images/food_option/menu.svg"
+            alt="menu icon"
+            width="190"
+            height="160"
+          />
+          <h4 class="guiding__item-titel">Choose order</h4>
+          <p class="guiding__item-para">
+            Check over hundreds of menus to <br />
+            pick your favorite food
+          </p>
+        </div>
+        <div class="guiding__item-box">
+          <img
+            src="./images/food_option/bill.svg"
+            alt="menu icon"
+            width="190"
+            height="160"
+          />
+          <h4 class="guiding__item-titel">Pay advanced</h4>
+          <p class="guiding__item-para">
+            It's quick, safe, and simple. Select <br />
+            several methods of payment
+          </p>
+        </div>
+        <div class="guiding__item-box">
+          <img
+            src="./images/food_option/donut.svg"
+            alt="menu icon"
+            width="190"
+            height="160"
+          />
+          <h4 class="guiding__item-titel">Enjoy meals</h4>
+          <p class="guiding__item-para">
+            Food is made and delivered directly <br />
+            to your home.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- guiding section ended -->
+
+    <!-- POPULAR ITEMS section start -->
+
+    <div class="popularItem__sectio-wrapper container">
+      <h2>Popular items</h2>
+      <div class="popularItem__sectio-box">
+        <div class="popular__items-image img_1"></div>
+        <div class="popular__items-image img_2"></div>
+        <div class="popular__items-image img_3"></div>
+        <div class="popular__items-image img_4"></div>
+        <div class="popular__items-image img_5"></div>
+
+        <div class="popular__item-info">
+          <h3>Cheese Burger</h3>
+          <div class="item__location">
+            <img
+              src="./images/popular/small_location.svg"
+              alt="location icon"
+              width="14"
+              height="22"
+            />
+            <span>Burger Arena</span>
+          </div>
+        </div>
+        <div class="popular__item-info">
+          <h3>Toffe's Cake</h3>
+          <div class="item__location">
+            <img
+              src="./images/popular/small_location.svg"
+              alt="location icon"
+              width="14"
+              height="22"
+            />
+            <span>Top Sticks</span>
+          </div>
+        </div>
+        <div class="popular__item-info">
+          <h3>Dancake</h3>
+          <div class="item__location">
+            <img
+              src="./images/popular/small_location.svg"
+              alt="location icon"
+              width="14"
+              height="22"
+            />
+            <span>Cake World</span>
+          </div>
+        </div>
+        <div class="popular__item-info">
+          <h3>Crispy Sandwitch</h3>
+          <div class="item__location">
+            <img
+              src="./images/popular/small_location.svg"
+              alt="location icon"
+              width="14"
+              height="22"
+            />
+            <span>Fastfood Dine</span>
+          </div>
+        </div>
+        <div class="popular__item-info">
+          <h3>Thai Soup</h3>
+          <div class="item__location">
+            <img
+              src="./images/popular/small_location.svg"
+              alt="location icon"
+              width="14"
+              height="22"
+            />
+            <span>Foody man</span>
+          </div>
+        </div>
+        <button type="submit" name="order">Order now</button>
+        <button type="submit" name="order">Order now</button>
+        <button type="submit" name="order">Order now</button>
+        <button type="submit" name="order">Order now</button>
+        <button type="submit" name="order">Order now</button>
+      </div>
+    </div>
+
+    <!-- popular item section ended -->
+
+    <!-- FEATURED RESTAURANTS SECTION START -->
+    <div class="featured__restaurans container">
+      <h2 class="featured__restauran-titel">Featured Restaurants</h2>
+      <div class="featured__restaurans-wrapper">
+        <div class="featured__restaurans-box">
+          <div class="food__image image_1">
+            <span class="restaurant__discount">
+              <img
+                src="./images/featured/discount__icon.svg"
+                alt="discount icon"
+                width="18"
+                height="22"
+              />
+              <span class="discount__text">20% off</span>
+            </span>
+            <span class="discount_time">
+              <img src="./images/featured/clock.svg" alt="clock icon" />
+              <span> Fast </span>
+            </span>
+          </div>
+          <div class="food__brand">
+            <div class="restaurant__info-box">
+              <img
+                src="./images/featured/brand1.png"
+                alt="Food world brand "
+                width="64"
+                height="64"
+              />
+              <span class="restaurant__titel">
+                <p>Foodworld</p>
+                <div>
+                  <img
+                    src="./images/featured/Iconstar.svg"
+                    alt="star"
+                    width="25"
+                    height="23"
+                  />
+                  <span>46</span>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="working__day">
+            <span class="working__day-titel"> Opens tomorrow </span>
+          </div>
+        </div>
+
+        <!-- 2222222222 -->
+
+        <div class="featured__restaurans-box">
+          <div class="food__image image_2">
+            <span class="restaurant__discount">
+              <img
+                src="./images/featured/discount__icon.svg"
+                alt="discount icon"
+                width="18"
+                height="22"
+              />
+              <span class="discount__text">20% off</span>
+            </span>
+            <span class="discount_time">
+              <img src="./images/featured/clock.svg" alt="clock icon" />
+              <span> Fast </span>
+            </span>
+          </div>
+          <div class="food__brand">
+            <div class="restaurant__info-box">
+              <img
+                src="./images/featured/brand2.png"
+                alt="Food world brand "
+                width="64"
+                height="64"
+              />
+              <span class="restaurant__titel">
+                <p>Foodworld</p>
+                <div>
+                  <img
+                    src="./images/featured/Iconstar.svg"
+                    alt="star"
+                    width="25"
+                    height="23"
+                  />
+                  <span>46</span>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="working__day">
+            <span class="working__day-titel"> Opens tomorrow </span>
+          </div>
+        </div>
+
+        <!-- 33333333333 -->
+
+        <div class="featured__restaurans-box">
+          <div class="food__image image_3">
+            <span class="restaurant__discount">
+              <img
+                src="./images/featured/discount__icon.svg"
+                alt="discount icon"
+                width="18"
+                height="22"
+              />
+              <span class="discount__text">20% off</span>
+            </span>
+            <span class="discount_time">
+              <img src="./images/featured/clock.svg" alt="clock icon" />
+              <span> Fast </span>
+            </span>
+          </div>
+          <div class="food__brand">
+            <div class="restaurant__info-box">
+              <img
+                src="./images/featured/brand3.png"
+                alt="Food world brand "
+                width="64"
+                height="64"
+              />
+              <span class="restaurant__titel">
+                <p>Foodworld</p>
+                <div>
+                  <img
+                    src="./images/featured/Iconstar.svg"
+                    alt="star"
+                    width="25"
+                    height="23"
+                  />
+                  <span>46</span>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="working__day">
+            <span class="working__day-titel succes"> Open now </span>
+          </div>
+        </div>
+
+        <!-- 44444444444 -->
+
+        <div class="featured__restaurans-box">
+          <div class="food__image image_4">
+            <span class="restaurant__discount">
+              <img
+                src="./images/featured/discount__icon.svg"
+                alt="discount icon"
+                width="18"
+                height="22"
+              />
+              <span class="discount__text">20% off</span>
+            </span>
+            <span class="discount_time">
+              <img src="./images/featured/clock.svg" alt="clock icon" />
+              <span> Fast </span>
+            </span>
+          </div>
+          <div class="food__brand">
+            <div class="restaurant__info-box">
+              <img
+                src="./images/featured/brand4.png"
+                alt="Food world brand "
+                width="64"
+                height="64"
+              />
+              <span class="restaurant__titel">
+                <p>Foodworld</p>
+                <div>
+                  <img
+                    src="./images/featured/Iconstar.svg"
+                    alt="star"
+                    width="25"
+                    height="23"
+                  />
+                  <span>46</span>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="working__day">
+            <span class="working__day-titel succes"> Open now </span>
+          </div>
+        </div>
+
+        <!-- BREAK -->
+
+        <!-- 5555555 -->
+
+        <div class="featured__restaurans-box">
+          <div class="food__image image_5">
+            <span class="restaurant__discount">
+              <img
+                src="./images/featured/discount__icon.svg"
+                alt="discount icon"
+                width="18"
+                height="22"
+              />
+              <span class="discount__text">20% off</span>
+            </span>
+            <span class="discount_time">
+              <img src="./images/featured/clock.svg" alt="clock icon" />
+              <span> Fast </span>
+            </span>
+          </div>
+          <div class="food__brand">
+            <div class="restaurant__info-box">
+              <img
+                src="./images/featured/brand5.png"
+                alt="Food world brand "
+                width="64"
+                height="64"
+              />
+              <span class="restaurant__titel">
+                <p>Foodworld</p>
+                <div>
+                  <img
+                    src="./images/featured/Iconstar.svg"
+                    alt="star"
+                    width="25"
+                    height="23"
+                  />
+                  <span>46</span>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="working__day">
+            <span class="working__day-titel succes"> Open now </span>
+          </div>
+        </div>
+
+        <!-- 6666666 -->
+
+        <div class="featured__restaurans-box">
+          <div class="food__image image_6">
+            <span class="restaurant__discount">
+              <img
+                src="./images/featured/discount__icon.svg"
+                alt="discount icon"
+                width="18"
+                height="22"
+              />
+              <span class="discount__text">20% off</span>
+            </span>
+            <span class="discount_time">
+              <img src="./images/featured/clock.svg" alt="clock icon" />
+              <span> Fast </span>
+            </span>
+          </div>
+          <div class="food__brand">
+            <div class="restaurant__info-box">
+              <img
+                src="./images/featured/brand6.png"
+                alt="Food world brand "
+                width="64"
+                height="64"
+              />
+              <span class="restaurant__titel">
+                <p>Foodworld</p>
+                <div>
+                  <img
+                    src="./images/featured/Iconstar.svg"
+                    alt="star"
+                    width="25"
+                    height="23"
+                  />
+                  <span>46</span>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="working__day">
+            <span class="working__day-titel succes"> Open now </span>
+          </div>
+        </div>
+
+        <!-- 77777777 -->
+
+        <div class="featured__restaurans-box">
+          <div class="food__image image_7">
+            <span class="restaurant__discount">
+              <img
+                src="./images/featured/discount__icon.svg"
+                alt="discount icon"
+                width="18"
+                height="22"
+              />
+              <span class="discount__text">20% off</span>
+            </span>
+            <span class="discount_time">
+              <img src="./images/featured/clock.svg" alt="clock icon" />
+              <span> Fast </span>
+            </span>
+          </div>
+          <div class="food__brand">
+            <div class="restaurant__info-box">
+              <img
+                src="./images/featured/brand7.png"
+                alt="Food world brand "
+                width="64"
+                height="64"
+              />
+              <span class="restaurant__titel">
+                <p>Foodworld</p>
+                <div>
+                  <img
+                    src="./images/featured/Iconstar.svg"
+                    alt="star"
+                    width="25"
+                    height="23"
+                  />
+                  <span>46</span>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="working__day">
+            <span class="working__day-titel succes"> Open now </span>
+          </div>
+        </div>
+
+        <!-- 888888888 -->
+
+        <div class="featured__restaurans-box">
+          <div class="food__image image_8">
+            <span class="restaurant__discount">
+              <img
+                src="./images/featured/discount__icon.svg"
+                alt="discount icon"
+                width="18"
+                height="22"
+              />
+              <span class="discount__text">20% off</span>
+            </span>
+            <span class="discount_time">
+              <img src="./images/featured/clock.svg" alt="clock icon" />
+              <span> Fast </span>
+            </span>
+          </div>
+          <div class="food__brand">
+            <div class="restaurant__info-box">
+              <img
+                src="./images/featured/brand8.png"
+                alt="Food world brand "
+                width="64"
+                height="64"
+              />
+              <span class="restaurant__titel">
+                <p>Foodworld</p>
+                <div>
+                  <img
+                    src="./images/featured/Iconstar.svg"
+                    alt="star"
+                    width="25"
+                    height="23"
+                  />
+                  <span>46</span>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div class="working__day">
+            <span class="working__day-titel succes"> Open now </span>
+          </div>
+        </div>
+      </div>
+      <div class="btn-div">
+        <button type="menu" class="view__all-btn">View all</button>
+      </div>
+    </div>
+
+    <!-- Featured restaurant ended -->
+
+    <!-- SEARCH BY FOOD  START-->
+
+    <div class="searchBy__food-wrapper">
+      <div class="container searchBy__food-wrapper">
+        <header class="search__food-header">
+          <span class="search__food-titel"> Search by Food </span>
+
+          <span class="search__view">
+            <span class="search__view-titel"> View all </span>
+            <span class="search__view-swipe">
+              <img
+                src="./images/popular/swipe_left.svg"
+                alt="left swipe"
+                width="90"
+                height="90"
+              />
+              <img
+                src="./images/popular/swipe_right.svg"
+                alt="left swipe"
+                width="90"
+                height="90"
+              />
+            </span>
+          </span>
+        </header>
+
+        <div class="search__food-list">
+          <div class="food__list-item">
+            <img src="./images/search_food/pizza.png" alt="Pizza" />
+            <p class="food__list-name">Pizza</p>
+          </div>
+
+          <!-- 222222 -->
+          <div class="food__list-item">
+            <img src="./images/search_food/burger.png" alt="Burger" />
+            <p class="food__list-name">Burger</p>
+          </div>
+          <!-- 33333 -->
+          <div class="food__list-item">
+            <img src="./images/search_food/noodels.png" alt="Noodles" />
+            <p class="food__list-name">Noodels</p>
+          </div>
+          <!-- 4444444 -->
+          <div class="food__list-item">
+            <img
+              src="./images/search_food/sub-sandwitch.png"
+              alt="Sub Sandwich"
+            />
+            <p class="food__list-name">Sub-sandwich</p>
+          </div>
+          <!-- 555555 -->
+          <div class="food__list-item">
+            <img src="./images/search_food/chowmein.png" alt="chowmein" />
+            <p class="food__list-name">Choemein</p>
+          </div>
+          <!-- 666666 -->
+
+          <div class="food__list-item">
+            <img src="./images/search_food/steak.png" alt="Steak" />
+            <p class="food__list-name">Steak</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- search by food section ENDED -->
+
+    <!-- INSTALL APP SECTION  -->
+
+    <div class="install__app-wrapper">
+      <div class="small__container">
+        <header class="install__app-header">
+          <div class="install__app-header-box">
+            <img src="./images/installApp/discount.svg" alt="Discount icon" />
+            <p class="install__app-titel">
+              Daily <br />
+              Discounts
+            </p>
+          </div>
+
+          <div class="install__app-header-box">
+            <img
+              src="./images/installApp/Iconlocation_icon.svg"
+              alt="Discount icon"
+            />
+            <p class="install__app-titel">
+              Live <br />
+              Tracing
+            </p>
+          </div>
+          <div class="install__app-header-box">
+            <img src="./images/installApp/Iconclock.svg" alt="Discount icon" />
+            <p class="install__app-titel">
+              Quick <br />
+              Delivery
+            </p>
+          </div>
+        </header>
+
+        <div class="install__section">
+          <img
+            src="./images/installApp/iphones.png"
+            alt="iphones"
+            width="450"
+            height="400"
+          />
+
+          <div class="app__stores-box">
+            <h2 class="app__stores-titel">Install the app</h2>
+            <p class="app__stores-para">
+              It's never been easier to order food. Look for the finest
+              discounts and you'll be lost in a world of delectable food.
+            </p>
+
+            <div class="app__stores-applications">
+              <a href="#" class="app__store-link">
+                <img
+                  src="./images/installApp/google_play.svg"
+                  alt=" google play logo"
+                />
+                <span class="app__store-titel">
+                  <span>Get it on</span>
+                  <br />
+                  <b>Goodle Play</b>
+                </span>
+              </a>
+              <a href="#" class="app__store-link">
+                <img src="./images/installApp/apple_logo.svg" alt="" />
+                <span class="app__store-titel">
+                  <span>Get it on</span>
+                  <br />
+                  <b>App Store</b>
+                </span>
+              </a>
+              <!-- <img src="./images/installApp/google-play.svg" alt="">
+              <img src="./images/installApp/app-store.svg" alt=""> -->
+            </div>
+            <img src="./" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- install app section ended -->
+
+    <!-- Food types section starts -->
+
+    <div class="food__types-wrappe container">
+      <div class="food__type-box">
+        <div class="food__type-item">
+          <div class="food__type-titel">
+            <h3 class="food__type-text">
+              Best deals
+              <span
+                >Crispy <br />
+                Sandwiches</span
+              >
+            </h3>
+
+            <p class="food__type-para">
+              Enjoy the large size of sandwiches. Complete perfect slice of
+              sandwiches.
+            </p>
+
+            <button class="food__type-btn">Proceed to order</button>
+          </div>
+          <img
+            src="./images/foodType/food1.png"
+            alt=""
+            width="50%"
+            height="100%"
+          />
+        </div>
+        <!-- 222222 -->
+
+        <div class="food__type-item">
+          <img src="./images/foodType/food2.png" alt="" />
+          <div class="food__type-titel">
+            <h3 class="food__type-text">
+              Best deals
+              <span
+                >Friend <br />
+                Chicken</span
+              >
+            </h3>
+
+            <p class="food__type-para">
+              Enjoy the large size of sandwiches. Complete perfect slice of
+              sandwiches.
+            </p>
+
+            <button class="food__type-btn">Proceed to order</button>
+          </div>
+        </div>
+
+        <!-- 33333 -->
+
+        <div class="food__type-item">
+          <div class="food__type-titel">
+            <h3 class="food__type-text">
+              Best deals
+              <span
+                >Friend <br />
+                Chicken</span
+              >
+            </h3>
+
+            <p class="food__type-para">
+              Enjoy the large size of sandwiches. Complete perfect slice of
+              sandwiches.
+            </p>
+
+            <button class="food__type-btn">Proceed to order</button>
+          </div>
+          <img src="./images/foodType/food3.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- READY TO ORDER SECTION -->
+
+    <div class="ready__order">
+      <h3 class="ready__order-titel">
+        Are you ready to order with <br />
+        the best deals?
+      </h3>
+      <button type="submit" class="ready__order-btn">Proceed to order</button>
+    </div>
+
+    <!-- ready to orde section endded -->
+
+    <!-- FOOTER STARTS -->
+
+    <footer class="footer__wrapper">
+      <div class="footer_content container">
+        <h3>Our top cities</h3>
+        <div class="footer__box">
+          <!-- 111111 -->
+
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#">San Francisco</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">Miami</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">San Diego</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">East Bay</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">Long Beach</a>
+            </li>
+          </ul>
+
+          <!-- 22222 -->
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#">San Francisco</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">Miami</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">San Diego</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">East Bay</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">Long Beach</a>
+            </li>
+          </ul>
+          <!-- 33333 -->
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#">San Francisco</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">Miami</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">San Diego</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">East Bay</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">Long Beach</a>
+            </li>
+          </ul>
+          <!-- 44444 -->
+
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#">San Francisco</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">Miami</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">San Diego</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">East Bay</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">Long Beach</a>
+            </li>
+          </ul>
+          <!-- 555555 -->
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#">San Francisco</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">Miami</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">San Diego</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">East Bay</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">Long Beach</a>
+            </li>
+          </ul>
+        </div>
+
+        <span class="footer__break-line"></span>
+
+        <div class="footer__box-2">
+          <div class="contact__box">
+            <ul class="contact__list">
+              <li class="contact__items">
+                <b>Company</b>
+              </li>
+              <li class="contact__items">
+                <a href="#">About us</a>
+              </li>
+              <li class="contact__items">
+                <a href="#">Team</a>
+              </li>
+              <li class="contact__items">
+                <a href="#">Careers</a>
+              </li>
+              <li class="contact__items">
+                <a href="#">Blog</a>
+              </li>
+            </ul>
+            <ul class="contact__list">
+              <li class="contact__items">
+                <b>Contact</b>
+              </li>
+              <li class="contact__items">
+                <a href="#">Help & Support</a>
+              </li>
+              <li class="contact__items">
+                <a href="#">Team</a>
+              </li>
+              <li class="contact__items">
+                <a href="#">Careers</a>
+              </li>
+              <li class="contact__items">
+                <a href="#">Blog</a>
+              </li>
+            </ul>
+            <ul class="contact__list">
+              <li class="contact__items">
+                <b>Legal</b>
+              </li>
+              <li class="contact__items">
+                <a href="#">Terms & Conditions</a>
+              </li>
+              <li class="contact__items">
+                <a href="#">Team</a>
+              </li>
+              <li class="contact__items">
+                <a href="#">Careers</a>
+              </li>
+              <li class="contact__items">
+                <a href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="social__media-box">
+            <h4>Follow us</h4>
+            <div class="media__list">
+              <a href="#"
+              class="media__list-link"
+                ><img
+                  src="./images/footer/instagram.svg"
+                  alt="instagram"
+                  width="21"
+                  height="24"
+              /></a>
+              <a href="#"
+              class="media__list-link"
+                ><img
+                  src="./images/footer/facebook.svg"
+                  alt="instagram"
+                  width="21"
+                  height="24"
+              /></a>
+              <a href="#"
+              class="media__list-link"
+                ><img
+                  src="./images/footer/twitter.svg"
+                  alt="instagram"
+                  width="21"
+                  height="24"
+              /></a>
+            </div>
+            <p>Receive exclusive offers in your mailbox</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
